@@ -27,7 +27,10 @@ public class Utils {
         System.out.println(ANSI_PURPLE + "—".repeat(10)
                 + " [ Task " + number + " ] " + "—".repeat(10) + ANSI_RESET);
         System.out.println();
-        number++;
+    }
+
+    public static void subTask(char letter) {
+        System.out.println(ANSI_GREEN + "[ subTask " + "\"" + letter + "\"" + " ]" + ANSI_RESET);
     }
 
     public static void part() {

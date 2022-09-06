@@ -7,17 +7,15 @@ public class Student {
     static final String LAST_NAME = "Фамилия: ";
     static final String AGE = "Возраст: ";
     static final String LEVEL = "Класс: ";
+    static final String YEARS = " лет";
     static final String ANSI_RESET = "\u001B[0m";
     static final String ANSI_BLUE = "\u001B[34m";
     static final String ANSI_PURPLE = "\u001B[35m";
-    static final String ANSI_RED = "\u001B[31m";
-
 
     public static void main(String[] args) {
 
         String firstName = "Вова";
         String lastName = "Сидоров";
-        String years = " лет";
         int level = 5;
         int yob = 10;
 
@@ -26,7 +24,7 @@ public class Student {
                         LINE_STUDENT_M + "\n" +
                         FIRST_NAME + firstName + " ".repeat(22) + "|\n" +
                         LAST_NAME + lastName + " ".repeat(15) + "|\n" +
-                        AGE + yob + years + " ".repeat(16) + "|\n" +
+                        AGE + yob + YEARS + " ".repeat(16) + "|\n" +
                         LEVEL + level + " ".repeat(23) + "|" + "\n" +
                         LINE +
                         ANSI_RESET
@@ -42,7 +40,7 @@ public class Student {
                         LINE_STUDENT_F + "\n" +
                         FIRST_NAME + firstName + " ".repeat(22) + "|\n" +
                         LAST_NAME + lastName + " ".repeat(14) + "|\n" +
-                        AGE + yob + years + " ".repeat(16) + "|\n" +
+                        AGE + yob + YEARS + " ".repeat(16) + "|\n" +
                         LEVEL + level + " ".repeat(23) + "|" + "\n" +
                         LINE +
                         ANSI_RESET
