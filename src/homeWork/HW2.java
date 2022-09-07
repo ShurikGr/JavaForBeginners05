@@ -7,14 +7,13 @@ public class HW2 {
     public static final String ENTER = "\n";
     public static final String SPACE = " ";
 
-
-
     public static void main(String[] args) {
         /**
-         * 4. Создать целочисленные переменные x, y, z и присвоить им любые значения (на ваше усмотрение)
-         * Вывести значения переменных в столбик
+         * 4. Создать целочисленные переменные x, y, z и присвоить им любые
+         * значения (на ваше усмотрение). Вывести значения переменных в столбик
          * Вывести значения переменных в строку
-         * Вывести значения этих переменных так, чтобы было понятно, какое значение к какой переменной относится.
+         * Вывести значения этих переменных так, чтобы было понятно,
+         * какое значение к какой переменной относится.
          * Например, должно быть распечатано:
          * int x = 5;
          * или
@@ -77,10 +76,11 @@ public class HW2 {
         );
 
         /**
-         * 7. Создать переменные apple и student и присвоить им значения 40 и 6 соотетственно.
-         * Распечатать выражение, где вместо … - результаты математических вычислений:
-         * Если … яблок поделить на … учеников, то каждый ученик получит по … яблок(a),
-         * и … яблок(а) останется учителю.
+         * 7. Создать переменные apple и student и присвоить им значения
+         * 40 и 6 соотетственно. Распечатать выражение, где вместо …
+         * - результаты математических вычислений:
+         * Если … яблок поделить на … учеников, то каждый ученик получит
+         * по … яблок(a), и … яблок(а) останется учителю.
          */
         task(7);
 
@@ -94,10 +94,12 @@ public class HW2 {
         String text3 = " яблок(а), и ";
         String text4 = " яблок(а) останется учителю.";
 
-        System.out.println(text + apple + text1 + student + text2 + division + text3 + reminder + text4);
+        System.out.println(text + apple + text1 + student + text2 + division
+                + text3 + reminder + text4);
 
         /**
-         * 8. Распечатать выражение из задания 7 со значениями 100 и 21 соответственно.
+         * 8. Распечатать выражение из задания 7 со значениями
+         * 100 и 21 соответственно.
          */
         task(8);
 
@@ -106,12 +108,14 @@ public class HW2 {
         division = apple / student;
         reminder = apple % student;
 
-        System.out.println(text + apple + text1 + student + text2 + division + text3 + reminder + text4);
+        System.out.println(text + apple + text1 + student + text2 + division
+                + text3 + reminder + text4);
 
         /**
-         * 9.  Решить с помощью переменных и математических вычислений следующую задачу:
-         * В школьную столовую привезли 6кг лимонов, яблок на 24 кг больше, чем лимонов,
-         * а груш на 12кг меньше, чем яблок.
+         * 9.  Решить с помощью переменных и математических вычислений
+         * следующую задачу:
+         * В школьную столовую привезли 6кг лимонов, яблок на 24 кг больше,
+         * чем лимонов, а груш на 12кг меньше, чем яблок.
          * Сколько килограммов фруктов привезли в школьную столовую?
          */
         task(9);
@@ -193,7 +197,8 @@ public class HW2 {
         e = 2;
 
         subTask('A');
-        text = "Число " + a + " кратно " + b + " потому что остаток от деления равен " + (a % b) + ".";
+        text = "Число " + a + " кратно " + b + " потому что остаток от "
+                + "деления равен " + (a % b) + ".";
         System.out.println(text);
 
         subTask('B');
@@ -205,20 +210,26 @@ public class HW2 {
         System.out.println(text);
 
         subTask('C');
-        text = "Число " + c + " - нечетное, так как остаток от деления на " + e + " равен " + (c % e);
+        text = "Число " + c + " - нечетное, так как остаток от деления на "
+                + e + " равен " + (c % e);
         System.out.println(text);
-        text = "Число " + d + " - нечетное, так как остаток от деления на " + e + " равен " + (d % e);
+        text = "Число " + d + " - нечетное, так как остаток от деления на "
+                + e + " равен " + (d % e);
         System.out.println(text);
 
         subTask('D');
         int number = 7;
-        text = "Число " + a + " не кратно " + number + " так как остаток от деления на " + e + " равен " + (a % number);
+        text = "Число " + a + " не кратно " + number + " так как остаток "
+                + "от деления на " + e + " равен " + (a % number);
         System.out.println(text);
-        text = "Число " + b + " не кратно " + number + " так как остаток от деления на " + e + " равен " + (b % number);
+        text = "Число " + b + " не кратно " + number + " так как остаток "
+                + "от деления на " + e + " равен " + (b % number);
         System.out.println(text);
-        text = "Число " + c + " не кратно " + number + " так как остаток от деления на " + e + " равен " + (c % number);
+        text = "Число " + c + " не кратно " + number + " так как остаток "
+                + "от деления на " + e + " равен " + (c % number);
         System.out.println(text);
-        text = "Число " + d + " кратно " + number + " так как остаток от деления на " + e + " равен " + (d % number);
+        text = "Число " + d + " кратно " + number + " так как остаток "
+                + "от деления на " + e + " равен " + (d % number);
         System.out.println(text);
 
         /**
@@ -236,25 +247,27 @@ public class HW2 {
         int l = 10;
         int m = 15;
 
-
-
         System.out.println(
             ANSI_BLUE + SPACE.repeat(8) + "+" + a
-                    + SPACE.repeat(2) + b + SPACE.repeat(2) + "*" + c + SPACE.repeat(2) + "/" + d + SPACE.repeat(2)
-                    + "%" + d + SPACE.repeat(2) + "^" + d + SPACE.repeat(2) + "++" + SPACE.repeat(2) + "--"
-                    + ANSI_RESET
-                    + ENTER
-                    + ANSI_RED + "k = " + k + ANSI_RESET + SPACE.repeat(3) + (k + a) + SPACE.repeat(3) + (k + b)
-                    + SPACE.repeat(3) + (k * c) + SPACE.repeat(3) + (k / d) + SPACE.repeat(3) + (k % d)
-                    + SPACE.repeat(3) + ((int)Math.pow(k, 2))  + SPACE.repeat(3) + (++k) + SPACE.repeat(3) + (--k)
-                    + ENTER
-                    + ANSI_RED + "l = " + l + ANSI_RESET + SPACE.repeat(2) + (l + a) + SPACE.repeat(3) + (l + b)
-                    + SPACE.repeat(3) + (l * c) + SPACE.repeat(2) + (l / d) + SPACE.repeat(3) + (l % d)
-                    + SPACE.repeat(3) + ((int)Math.pow(l, 2))  + SPACE.repeat(2) + (++l) + SPACE.repeat(2) + (--l)
-                    + ENTER
-                    + ANSI_RED + "m = " + m + ANSI_RESET + SPACE.repeat(2) + (m + a) + SPACE.repeat(2) + (m + b)
-                    + SPACE.repeat(3) + (m * c) + SPACE.repeat(2) + (m / d) + SPACE.repeat(3) + (m % d)
-                    + SPACE.repeat(3) + ((int)Math.pow(m, 2))  + SPACE.repeat(2) + (++m) + SPACE.repeat(2) + (--m)
+                    + SPACE.repeat(2) + b + SPACE.repeat(2) + "*" + c
+                    + SPACE.repeat(2) + "/" + d + SPACE.repeat(2) + "%" + d
+                    + SPACE.repeat(2) + "^" + d + SPACE.repeat(2) + "++"
+                    + SPACE.repeat(2) + "--" + ANSI_RESET + ENTER + ANSI_RED
+                    + "k = " + k + ANSI_RESET + SPACE.repeat(3) + (k + a)
+                    + SPACE.repeat(3) + (k + b) + SPACE.repeat(3) + (k * c)
+                    + SPACE.repeat(3) + (k / d) + SPACE.repeat(3) + (k % d)
+                    + SPACE.repeat(3) + ((int)Math.pow(k, 2))  + SPACE.repeat(3)
+                    + (++k) + SPACE.repeat(3) + (--k) + ENTER + ANSI_RED
+                    + "l = " + l + ANSI_RESET + SPACE.repeat(2) + (l + a)
+                    + SPACE.repeat(3) + (l + b) + SPACE.repeat(3) + (l * c)
+                    + SPACE.repeat(2) + (l / d) + SPACE.repeat(3) + (l % d)
+                    + SPACE.repeat(3) + ((int)Math.pow(l, 2))  + SPACE.repeat(2)
+                    + (++l) + SPACE.repeat(2) + (--l) + ENTER + ANSI_RED
+                    + "m = " + m + ANSI_RESET + SPACE.repeat(2) + (m + a)
+                    + SPACE.repeat(2) + (m + b) + SPACE.repeat(3) + (m * c)
+                    + SPACE.repeat(2) + (m / d) + SPACE.repeat(3) + (m % d)
+                    + SPACE.repeat(3) + ((int)Math.pow(m, 2))  + SPACE.repeat(2)
+                    + (++m) + SPACE.repeat(2) + (--m)
         );
 
         /**
@@ -271,16 +284,37 @@ public class HW2 {
         double xx = 7;
         double yy = 18;
         int n = 3 * 2;
-
-
-        double result = Math.pow(xx, n) * ((5 * xx + 7 * yy) / (8 * xx + 10 * yy)) / ((3 * xx - yy) / (xx + yy));
+        double result = Math.pow(xx, n) *
+                ((5 * xx + 7 * yy) / (8 * xx + 10 * yy))
+                / ((3 * xx - yy) / (xx + yy));
         text = ANSI_BLUE + "IF" + ANSI_RESET + ENTER
                 + ANSI_RED + "x = " + (int)xx + ENTER
                 + "y = " + (int)yy + ENTER
                 + "n = " + n + ANSI_RESET +ENTER
                 + ANSI_BLUE + "then" + ANSI_RESET + ENTER
-                + ANSI_GREEN + "xⁿ((5x + 7y) / (8x + 10y)) / ((3x - y)/(x + y)) = " + result;
-        System.out.println(text);
-    }
+                + ANSI_GREEN + "xⁿ((5x + 7y) / (8x + 10y)) "
+                + "/ ((3x - y)/(x + y)) = " + result;
 
+        System.out.println(text);
+
+        /**
+         * 16. Декларировать и инициализировать переменные a, b, c.
+         * Распечатать выражение и результаты вычислений:
+         * Сумма чисел a, b, c++ и sumABC-- = …, а разность b++ и  sumCBA = …
+         */
+        task(16);
+
+         a = 4;
+         b = 5;
+         c = 6;
+         int sumABC = a + b + c;
+         int sumCBA = sumABC;
+         text1 = "Сумма чисел a, b, c++ и sumABC-- = ";
+         text2 = ", а разность b++ и sumCBA = ";
+
+        String answer = text1 + (a + b + c + sumABC--) + text2 + (b++ - sumCBA);
+        System.out.println(answer);
+
+
+    }
 }
