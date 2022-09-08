@@ -283,7 +283,7 @@ public class HW2 {
 
         double xx = 7;
         double yy = 18;
-        int n = 3 * 2;
+        int n = 3;
         double result = Math.pow(xx, n) *
                 ((5 * xx + 7 * yy) / (8 * xx + 10 * yy))
                 / ((3 * xx - yy) / (xx + yy));
@@ -298,10 +298,38 @@ public class HW2 {
         System.out.println(text);
 
         /**
+         * 15. Записать условие задачи в виде формулы и вычислить ответ:
+         * В мастерской за 5 дней сшили 15 костюмов, поровну за каждый день.
+         * За сколько дней при той же ежедневной средней выработке
+         * сошьют 69 костюмов?
+         */
+        task(15);
+
+        int quantityOfDays = 5;
+        int quantityOfSuits = 15;
+        int suitsPerDay = quantityOfSuits / quantityOfDays;
+        int overallSuits = 69;
+        int overallDays = overallSuits / suitsPerDay;
+        String task = "Задача:\n";
+        text = "В мастерской за ";
+        text1 = " дней сшили ";
+        text2 = " костюмов, поровну за каждый день. \nЗа сколько дней " +
+                "при той же ежедневной средней выработке сошьют ";
+        text3 =  " костюмов?";
+        text4 = "Ответ: ";
+
+        System.out.println(
+                task + ANSI_GREEN + text + quantityOfDays + text1
+                        + quantityOfSuits + text2 + overallSuits + text3
+                        + ENTER + ANSI_BLACK + text4 + ANSI_RED + overallDays
+        );
+
+        /**
          * 16. Декларировать и инициализировать переменные a, b, c.
          * Распечатать выражение и результаты вычислений:
          * Сумма чисел a, b, c++ и sumABC-- = …, а разность b++ и  sumCBA = …
          */
+        part();
         task(16);
 
          a = 4;
@@ -312,9 +340,8 @@ public class HW2 {
          text1 = "Сумма чисел a, b, c++ и sumABC-- = ";
          text2 = ", а разность b++ и sumCBA = ";
 
-        String answer = text1 + (a + b + c + sumABC--) + text2 + (b++ - sumCBA);
-        System.out.println(answer);
-
+        String answer = text1 + (a + b + c++ + sumABC--) + text2 + (b++ - sumCBA);
+        System.out.println("\u001b[32m." + answer);
 
     }
 }
