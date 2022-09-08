@@ -370,5 +370,61 @@ public class HW2 {
 
         System.out.println(answer);
 
+        /**
+         * 18.
+         */
+        task(18);
+        result = ((3 + 4 * x) / 5) - ((10 * (y - 5) * (a + b + c)) / x) + (9 * (4 / x + (9 + x) / y));
+
+        answer = "((3 + 4 * x) / 5) - ((10 * (y - 5) " +
+                "* (a + b + c)) / x) + (9 * (4 / x + (9 + x) / y)) = " + result;
+
+        System.out.println(answer);
+
+        /**
+         * 19.
+         */
+        task(19);
+
+        d = 4;
+
+        result = ((double)(5 * x + 7 * y) / (double)(8 * x + 10 * y)) / ((3 * x - y)
+                / (double)(x + y)) / (a + b + (c / d) + ((double)(a + b) / (c + d)) + (a * b));
+
+        answer = "(((5 * x + 7 * y) / (8 * x + 10 * y)) / ((3 * x - y) "
+                + "/ (x + y))) / (a + b + (c / d) + ((a + b) / (c + d)) "
+                + "+ (a * b)) = " + result;
+
+        System.out.println(answer);
+
+        /**
+         * 20. Ввести в программу формулу конвертации температур C° -> F°.
+         * Найти на сайте https://openweathermap.org/
+         * температуру в любом городе, и проверьте, соответствует ли
+         * температура в С и F вашим рассчетным значениям
+         * (использовать только int)
+         *
+         * * Кто хочет - проверьте погоду в K (кельвинах)
+         * и ее соответствие с рассчетным значением
+         */
+
+        task(20);
+
+        int temperatureInCelsius = 27;
+        int temperatureInFahrenheit = (temperatureInCelsius * 9 / 5) + 32;
+        int temperatureInKelvin = temperatureInCelsius + 273;
+        text = "Температура в Лимассоле в Цельсиях = ";
+        text1 = "Температура в Лимассоле в Фаренгейтах = ";
+        text2 = "Температура в Лимассоле в Кельвинах = ";
+        text3 = "°C";
+        text4 = "°F";
+        String text5 = "°K";
+
+        System.out.println(
+                text + temperatureInCelsius + text3 + ENTER
+                        + text1 + temperatureInFahrenheit + text4 + ENTER
+                        + text2 + temperatureInKelvin + text5);
+                
+
     }
 }
