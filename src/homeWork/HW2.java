@@ -362,8 +362,13 @@ public class HW2 {
         System.out.println("\u001b[32m." + answer);
 
         /**
-         *
+         * 17. Записать и вычислить выражение (x + 3)^2
          */
+        task(17);
+
+        answer = "(x + 3)^2 = " + (int)Math.pow(x + 3, 2);
+
+        System.out.println(answer);
 
     }
 }
