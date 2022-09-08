@@ -281,15 +281,33 @@ public class HW2 {
          */
         task(14);
 
-        double xx = 7;
-        double yy = 18;
+        x = 7;
+        y = 18;
         int n = 3;
-        double result = Math.pow(xx, n) *
-                ((5 * xx + 7 * yy) / (8 * xx + 10 * yy))
-                / ((3 * xx - yy) / (xx + yy));
+
+        // Ответ NaN
+//        double result = Math.pow(x, n) *
+//                ((5 * x + 7 * y) / (8 * x + 10 * y))
+//                / ((3 * x - y) / (x + y));
+
+        // Ответ Infinity
+//        double result = Math.pow(x, n) *
+//                ((double) (5 * x + 7 * y) / (8 * x + 10 * y))
+//                / ((3 * x - y) / (x + y));
+
+        // Ответ 0.0
+//        double result = Math.pow(x, n) *
+//                ((5 * x + 7 * y) / (8 * x + 10 * y))
+//                / ((3 * x - y) / (double)(x + y));
+
+        // Ответ 1949.9646892655367
+        double result = Math.pow(x, n) *
+                ((double) (5 * x + 7 * y) / (8 * x + 10 * y))
+                / ((3 * x - y) / (double)(x + y));
+
         text = ANSI_BLUE + "IF" + ANSI_RESET + ENTER
-                + ANSI_RED + "x = " + (int)xx + ENTER
-                + "y = " + (int)yy + ENTER
+                + ANSI_RED + "x = " + (int)x + ENTER
+                + "y = " + (int)y + ENTER
                 + "n = " + n + ANSI_RESET +ENTER
                 + ANSI_BLUE + "then" + ANSI_RESET + ENTER
                 + ANSI_GREEN + "xⁿ((5x + 7y) / (8x + 10y)) "
@@ -342,6 +360,10 @@ public class HW2 {
 
         String answer = text1 + (a + b + c++ + sumABC--) + text2 + (b++ - sumCBA);
         System.out.println("\u001b[32m." + answer);
+
+        /**
+         *
+         */
 
     }
 }
